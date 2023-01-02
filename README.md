@@ -11,9 +11,9 @@ Note 1:
 
 Note 2:
 Git sequence
-$ git add .or <name of the folder or files>
-$ git status
-$ git commit -m "<your commit message>"
-$ git status
-$ git log
-$ git push origin main
+- $ git add .or <name of the folder or files>
+- $ git status
+- $ git commit -m "<your commit message>"
+- $ git status
+- $ git log
+- $ git push origin main
