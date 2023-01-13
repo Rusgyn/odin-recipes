@@ -1,24 +1,34 @@
 
 <!DOCTYPE html>
+
 <Head lang="en">
     <meta charset="UTF-8">
     <title>Cultural Recipe</title>
+    <link rel="stylesheet" href="recipe.css">
 </Head>
+
 <html>
     <body>
-        <h1>Asian Recipes</h1>
-        <img src="images/chef.jpeg" alt="Kung Fu Panda chef">
-        <ul>
-            <li>Dessert
-                <ul>
-                    <li><a href="recipes/Maja_Blanca.html">Maja Blanca</a></li>
-                </ul>
-            <li>Main Course
-                <ul>
-                    <li><a href="recipes/Chicken_Chow_Mein.html">Chicken Chown Mein</a></li>
-                    <li><a href="recipes/Pork_Binagoongan.html">Pork Binagoongan</a></li>
-                </ul>
-        </ul>
+        <div id="recipe">Asian Recipes</div>
+            <img src="images/chef.jpeg" alt="Kung Fu Panda chef">
+        <!-- </div> -->
+
+        <div id="dessert">
+            <ul>
+                <li>Dessert
+                    <ul>
+                        <li class="sub"><a href="recipes/Maja_Blanca.html">Maja Blanca</a></li>
+                    </ul>
+                </li>
+                <br>
+                <li>Main Course
+                    <ul class="sub">
+                        <li><a href="recipes/Chicken_Chow_Mein.html">Chicken Chown Mein</a></li>
+                        <li><a href="recipes/Pork_Binagoongan.html">Pork Binagoongan</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
         
     </body>
 </html>
