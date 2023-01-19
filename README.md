@@ -10,10 +10,13 @@ Note 1:
 3. index.html - The main website.
 
 Note 2:
+- Used external CSS
+
+Note 3:
 Git sequence
-- $ git add .or <name of the folder or files>
+- $ git add .or (name of the folder or files)
 - $ git status
-- $ git commit -m "<your commit message>"
+- $ git commit -m "your commit message)"
 - $ git status
 - $ git log
 - $ git push origin main
